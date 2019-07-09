@@ -1,0 +1,142 @@
+.container{
+  font-size: 200%;
+  width: 100%;
+}
+
+.container-titulo
+{
+  background-image:url('../Imagens/duna.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 2em;
+  clear: both;
+}
+
+.container-main{
+  width: 100%;
+  display: flex;
+}
+
+.container-main h2{
+  margin-left: 7.9em;
+  margin-bottom: 1em;
+}
+
+.container-main .section-sinopse{
+  width: 70%;
+  margin: 2em;
+}
+
+.sinopse blockquote:hover,blockquote:focus{
+  box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+  transition-delay: 0s, 1s;
+}
+
+.container-main blockquote{
+  border: 1px solid #EEE8AA;
+  margin-left: 1em;
+  padding: 0.55em;
+  width: 25%;
+  float: right;
+  background: #EEE8AA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #DECBA4, #EEE8AA);
+  background: linear-gradient(to bottom, #DECBA4, #EEE8AA 98%);
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  transition: box-shadow 1s, transform 1s;
+  transition-delay: 0s, 1s;
+  text-shadow: 2px 0px 15px #EEE8AA, 0px 2px 5px #000000;
+}
+
+.container-main blockquote:hover,
+.container-main blockquote:focus{
+  transform:scale(1.2) rotate(-2deg);
+}
+
+.container-main blockquote cite{
+  display: block;
+  text-align: center;
+}
+
+.container-main blockquote p{
+  width: 100%;
+  display: inline;
+  margin-left: .5em;
+}
+
+
+.container-main .sinopse{
+  display: inline-flex;
+  margin-bottom: 0.2em;
+}
+
+.container-main p{
+  text-indent: 2em;
+  width: 70%;
+  font-size: 1.5ch;
+}
+
+.container-titulo h1{
+  font-size: 10ch;
+  color: #FFFFFF;
+  margin-left: 0.7em;
+  text-align: center;
+  text-shadow: 2px 0px 10px #EEE8AA,0px 2px 10px #000000;
+  margin-top: 2rem;
+
+}
+
+.menu li{
+  display: inline-flex;
+  flex: 1;
+  margin-right: 2em;
+  text-shadow: 2px 0px 10px #EEE8AA,0px 2px 10px #000000;
+}
+
+.menu{
+  width: 100%;
+  background: #5E4338;
+  background-image: linear-gradient(to bottom, transparent 5%,#5E4338 90%, #000000 5%);
+  position: fixed;
+  padding: .15em;
+}
+
+.menu a:hover,.container-titulo  a:active, .container-titulo  a:focus{
+  color: #EEE8AA;
+  text-shadow: 0px 2px 10px #EEE8AA,2px 0px 10px #000000;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+
+
+.section-autor{
+  width: 25%;
+  float: right;
+  margin-top: 4.2em;
+  margin-right: 1em;
+}
+
+.section-autor .autor img{
+  width: 90%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+
+.section-autor .autor{
+  padding: 0.3em;
+  text-align: center;
+}
+
+.rodape{
+  font-size: 1ch;
+  color: #FFFFFF;
+  padding: .5em;
+  background: #5E4338;
+  text-shadow: 0px 2px 10px #EEE8AA, 2px 0px 10px #000000;
+  background-image: linear-gradient(to top, transparent 5%, #5E4338 90% , #000000 5%);
+}
