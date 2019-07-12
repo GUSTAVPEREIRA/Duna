@@ -1,0 +1,28 @@
+.app {
+  background: #f1f1f1;
+  display: grid;
+  grid-template-areas:
+   "cabecalho"
+    "conteudo"
+    "rodape";
+  grid-template-columns: auto;
+  grid-template-rows: 600px auto auto;
+  font-size: 200%;
+
+}
+
+.cabecalho {
+  text-shadow: 2px 0px 15px #EEE8AA, 0px 2px 5px #000000;
+  color: #fdfdfd;
+  grid-area: cabecalho;
+}
+
+.conteudo {
+  padding: 0 .5rem;
+  grid-area: conteudo;
+}
+
+.rodape {
+  display: flex;
+  grid-area: rodape;
+}

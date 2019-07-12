@@ -1,0 +1,24 @@
+.cabecalho {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 10% 90%;
+}
+
+.menu {
+  grid-column: 1/6;
+  grid-row: 1/1;
+}
+
+.cabecalho__imagem {
+  grid-column: 1 / 6;
+  grid-row: 2/2;
+  background: url('../Imagens/duna.jpg') center / cover no-repeat;
+}
+.cabecalho__titulo {
+  text-align: center;
+  color: #fdfdfd;
+  font-size: 300%;
+  padding-top: 10rem;
+  padding-left: 10rem;
+
+}

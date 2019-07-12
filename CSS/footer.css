@@ -1,0 +1,6 @@
+.rodape {
+  display: flex;
+  background-image: linear-gradient(to bottom,#000000 95% , #000000 5%);
+  padding: .1rem 0rem;
+  color: #fdfdfd;
+}

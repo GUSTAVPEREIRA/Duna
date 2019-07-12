@@ -1,0 +1,62 @@
+.conteudo {
+  display: grid;
+  grid-template-columns: 50.00% 30.00% 20.00%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  grid-row-gap: 1rem;
+  grid-column-gap: 0.2rem;
+  margin-bottom: 10rem;
+  margin-top: 2rem;
+  height: calc(80vh - 50px);
+  text-align: justify;
+}
+
+p {
+  text-indent: 3ch;
+
+}
+
+.sinopse__1 {
+  grid-column: 1/1;
+  grid-row: 1/2;
+}
+
+.sinopse__2 {
+  grid-column: 1/1;
+  grid-row: 3/5;
+}
+
+.sinopse__citacao1 {
+  grid-column: 2/2;
+  grid-row: 1/3;
+  background: url('../Imagens/gaiman.jpg') top / 100% 80% no-repeat;
+}
+
+.sinopse__citacao2 {
+  grid-column: 2/2;
+  grid-row: 3/5;
+  background: url('../Imagens/arthur.jpg') center / cover no-repeat;
+}
+
+.sinopse__autor {
+  grid-column: 3/3;
+  grid-row: 1/5;
+  background: url('../Imagens/frank.jpg') center / cover no-repeat;
+}
+
+blockquote {
+  padding: .8rem;
+  color: #FFFFFF;
+  transition: box-shadow 1s, transform 1s;
+  transition-delay: 0s, 1s;
+  text-shadow: 2px 0px 15px #000000, 0px 2px 5px #000000;
+
+}
+
+.sinopse__citacao2 cite {
+  padding-left: 2.0rem;
+}
+
+
+.sinopse__citacao1 cite {
+  padding-left: 5rem;
+}

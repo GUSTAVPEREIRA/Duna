@@ -1,0 +1,17 @@
+.menu__lista {
+  display: flex;
+  background-image: linear-gradient(to bottom,#000000 95% , #000000 5%);
+  padding: 1rem 0rem;
+  justify-content: space-around;
+}
+
+
+.cabecalho .menu__link {
+  text-decoration: none;
+  color: #fdfdfd;
+}
+
+.cabecalho .menu__link:hover,.menu__link.home,.menu__link.autor,.menu__link.personagens,.menu__link.armas,.menu__link.livros  {
+  color: #EEE8AA;
+  border-bottom: 5px solid #EEE8AA;
+}
